@@ -1,0 +1,39 @@
+body {
+  background-color: #202733;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered-container {
+  position: relative;
+  background-color: #313a48;
+  width: 540px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  color: white;
+  width: 444px;
+  font-size: x-large;
+}
+h4 {
+  color: #53ffaa;
+}
+.btn {
+  position: absolute;
+  bottom: -30px;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: #53ffaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
